@@ -1,6 +1,6 @@
-Last Name: Tenorio
+ Last Name: Tenorio
  First Name: Carl Vincent
  Age: 20
  Contact Number: 09623104810
- Course: BSIT-AGD
+ Course: BSITAGD
 

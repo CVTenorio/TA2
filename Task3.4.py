@@ -6,16 +6,16 @@ fn = input ("Enter first name: ")
 age = input ("Enter age: ")
 contact_num = input ("Enter Contact Number: ")
 course = input ("Enter your course: ")
-student_info = f"Last Name: {ln}\n First Name: {fn}\n Age: {age}\n Contact Number: {contact_num}\n Course: {course}\n\n"
-with open("student.txt", "a")as file:
+student_info = f" Last Name: {ln}\n First Name: {fn}\n Age: {age}\n Contact Number: {contact_num}\n Course: {course}\n\n"
+with open("students.txt", "a") as file:
     file.write(student_info)
 print("Your Student Information has been saved sucessfully")
 
 try:
-    with open("student.txt", "r") as file:
+    with open("students.txt", "r") as file:
         student_data = file.read()
     if student_data:
-        print("Student Information: ")
+        print("Your Student Information: ")
         print(student_data)
     else:
         print("No data found.")
